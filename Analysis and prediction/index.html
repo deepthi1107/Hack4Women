@@ -1,0 +1,43 @@
+<p>
+<head>
+<style>
+  h1 {font-size: 48px;}
+  h1 {text-align: center;}
+  h1 {font-family: "SansSerif";}
+  h1 {color: blue}
+  h2 {font-family: "SansSerif"; font-size: 32px; font-weight: bold;}
+  label {font-size: 32px; font-weight: 390;}
+  label {font-family: "SansSerif";}
+  input {font-size: 32px;}
+  input {font-family: "SansSerif";}
+  button {text-align: center;} 
+  button {font-size: 27px;}
+  button {font-family: "SansSerif";}
+   body{
+   background-image: url("pic.jpg");
+   }
+</style>
+</head>
+</p>  
+
+<div class="Literacy_rate"/>
+
+<h1>Literacy Rate</h1>
+  
+<center><label> If you educate a man, you educate an individual. But if you educate a woman, you educate a nation.  </label></center><br><br><br>
+
+<label> Please enter the below details to check the literacy rate of that area.</label><br><br><br>
+  
+<form action="{{ url_for(" adult_autism )}} method="POST">
+  
+<label for="State">State :</label>
+<input id="State" name="State" type="text" placeholder="add State" /><br><br><br>
+  
+
+  
+<label for="District">District :</label>
+<input id="District" name="District" type="text" placeholder="add District" /><br><br><br>
+            
+<center><button type="submit">Predict</button>
+</center>
+
